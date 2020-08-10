@@ -152,11 +152,11 @@ class App extends Component {
               </Col>
             </Row>
             <Form.Group controlId="address1">
-              <Form.Label>Flat no. (floor, building, company)*</Form.Label>
+              <Form.Label>Flat no.*</Form.Label>
               <Form.Control type="text" value={this.state.addr1} onChange={this.handleAddrOneChange} />
             </Form.Group>
             <Form.Group controlId="address2">
-              <Form.Label>Address ( locality, colony, street, sector )*</Form.Label>
+              <Form.Label>Address ( Building, colony, street, sector )*</Form.Label>
               <Typeahead
                 isLoading={this.state.isLoading}
                 id="address2"
